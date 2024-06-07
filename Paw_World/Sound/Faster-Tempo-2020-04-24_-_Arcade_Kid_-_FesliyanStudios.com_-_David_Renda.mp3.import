@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Faster-Tempo-2020-04-24_-_Arcade_Kid_-_FesliyanStudios.com_-_David_Renda.mp3-b9f5ba8636517422a5ab43180a823328.mp3str"
+
+[deps]
+
+source_file="res://Sound/Faster-Tempo-2020-04-24_-_Arcade_Kid_-_FesliyanStudios.com_-_David_Renda.mp3"
+dest_files=[ "res://.import/Faster-Tempo-2020-04-24_-_Arcade_Kid_-_FesliyanStudios.com_-_David_Renda.mp3-b9f5ba8636517422a5ab43180a823328.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

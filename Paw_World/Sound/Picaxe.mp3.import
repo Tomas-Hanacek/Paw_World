@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Picaxe.mp3-d38db610663ea367462f0b7edd21cd9d.mp3str"
+
+[deps]
+
+source_file="res://Sound/Picaxe.mp3"
+dest_files=[ "res://.import/Picaxe.mp3-d38db610663ea367462f0b7edd21cd9d.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

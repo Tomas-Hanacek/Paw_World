@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/orecart_move_1-100470.mp3-a16cbc86c8052d3ac8d3bcba5c87437e.mp3str"
+
+[deps]
+
+source_file="res://Sound/orecart_move_1-100470.mp3"
+dest_files=[ "res://.import/orecart_move_1-100470.mp3-a16cbc86c8052d3ac8d3bcba5c87437e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

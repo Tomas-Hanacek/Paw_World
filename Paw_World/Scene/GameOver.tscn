@@ -1,0 +1,101 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Image/Screenshot 2024-05-18 at 11.07.13.png" type="Texture" id=1]
+[ext_resource path="res://Script/GameOver.gd" type="Script" id=2]
+[ext_resource path="res://Font/Atop-R99O3.ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 50
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 22
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 22
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 22
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 22
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 3 )
+
+[node name="GameOver" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.263
+margin_bottom = 0.0960083
+texture = ExtResource( 1 )
+expand = true
+stretch_mode = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -120.0
+margin_top = -120.0
+margin_right = 113.0
+margin_bottom = 72.0
+
+[node name="Finish" type="Label" parent="VBoxContainer"]
+margin_right = 233.0
+margin_bottom = 63.0
+custom_fonts/font = SubResource( 1 )
+text = "GOOD JOB"
+align = 1
+valign = 1
+
+[node name="Time" type="Label" parent="VBoxContainer"]
+margin_top = 67.0
+margin_right = 233.0
+margin_bottom = 95.0
+custom_fonts/font = SubResource( 2 )
+text = "Time elapsed: 0 s"
+align = 1
+
+[node name="Gems" type="Label" parent="VBoxContainer"]
+margin_top = 99.0
+margin_right = 233.0
+margin_bottom = 158.0
+custom_fonts/font = SubResource( 3 )
+text = "Gems collected: 0/9
+"
+align = 1
+
+[node name="RestartButton" type="Button" parent="VBoxContainer"]
+margin_top = 162.0
+margin_right = 233.0
+margin_bottom = 196.0
+custom_fonts/font = SubResource( 4 )
+text = "Restart"
+
+[node name="QuitButton" type="Button" parent="VBoxContainer"]
+pause_mode = 2
+margin_top = 200.0
+margin_right = 233.0
+margin_bottom = 234.0
+custom_fonts/font = SubResource( 5 )
+text = "Quit"
+
+[connection signal="pressed" from="VBoxContainer/RestartButton" to="." method="_on_RestartButton_pressed"]
+[connection signal="pressed" from="VBoxContainer/QuitButton" to="." method="_on_QuitButton_pressed"]

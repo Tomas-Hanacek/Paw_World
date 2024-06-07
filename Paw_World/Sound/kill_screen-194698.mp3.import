@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/kill_screen-194698.mp3-57277df6d2d4dbe87dfdf58ca12c2ac8.mp3str"
+
+[deps]
+
+source_file="res://Sound/kill_screen-194698.mp3"
+dest_files=[ "res://.import/kill_screen-194698.mp3-57277df6d2d4dbe87dfdf58ca12c2ac8.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
